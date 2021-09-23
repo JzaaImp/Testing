@@ -15,18 +15,19 @@
     />
     <link rel="stylesheet" href="./mainstyle.css" />
   </head>
-  <body onclick="window.location.href='./giftbox.html'">
+  <body onclick="window.location.href='./giftbox.html'" ontouchstart="window.location.href='./giftbox.html'">
     <!-- partial:index.partial.html -->
     <canvas
       id="text"
       width="700"
       height="200"
-      onclick="window.location.href='./giftbox.html'"
+      onclick="window.location.href='./giftbox.html'" ontouchstart="window.location.href='./giftbox.html'"
     ></canvas>
 
     <div id="html-text" class="text">
       FAREWELL 2K21<br />
-      ....JZAA
+      ....JZAA<br />
+      <a id="link" href="./giftbox.html">Click to open.</a>
     </div>
     <!-- partial -->
     <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/53148/pixi.min.js"></script>
