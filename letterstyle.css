@@ -193,7 +193,7 @@ canvas {
   display: none;
   position: absolute;
   width: 500px;
-  max-height: 100vh;
+  max-height: 120vh;
   margin-left: -200px;
   left: 45vw;
   top: 40vh;
