@@ -192,18 +192,18 @@ canvas {
 .message {
   display: none;
   position: absolute;
-  width: 400px;
-  max-height: 70vh;
+  width: 500px;
+  max-height: 100vh;
   margin-left: -200px;
-  left: 50vw;
-  top: 47vh;
+  left: 45vw;
+  top: 40vh;
   margin-top: -30vh;
 }
 
 .part-one {
   position: relative;
   background-color: #f1cfa0;
-  max-height: 70vh;
+  max-height: 100vh;
   overflow-y: auto;
   overflow-x: hidden;
 }
